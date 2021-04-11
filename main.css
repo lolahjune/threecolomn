@@ -1,0 +1,62 @@
+
+
+body{
+    text-align: center;
+}
+
+section{
+    text-align:left; 
+    width: 11%;
+    height: 280px;
+    display: inline-block;
+    padding: 40px;
+    color:hsla(0, 0%, 100%, 0.75);
+    float: left;
+    border-radius: 1px;
+    font-size: 14px;
+}
+
+
+h2{
+    color: hsl(0, 0%, 95%);
+    font-weight: 700;
+    font-family: 'Big Shoulders Text';
+}
+
+a {
+    color: hsla(0, 0%, 100%, 0.75);
+    border: white 1px solid;
+    border-radius: 50px;
+    text-decoration: none;
+    padding: 10px 20px 10px 20px;
+    font-family: lexend_decaregular ;
+    font-weight: 400;
+    font-size: 11px;
+}
+
+.sedans{
+ background-color: hsl(31, 77%, 52%);
+}
+
+.suvs{
+    background-color: hsl(184, 100%, 22%);
+}
+
+.luxury{
+    background-color: hsl(179, 100%, 13%);
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+@font-face {
+    font-family: 'lexend_decaregular';
+    src: url('file:///Users/lolahjune/Desktop/ReDi/threecolomn/index.html#') format('woff2'),
+         url('lfile:///Users/lolahjune/Desktop/ReDi/threecolomn/index.html#') format('woff');
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+
+}
