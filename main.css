@@ -1,34 +1,38 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Text:wght@700&display=swap');
+
+@media screen and (min-width: 375px) and (max-width:1440px){}
 
 body{
     text-align: center;
 }
-
-section{
+.row{
     text-align:left; 
-    width: 11%;
-    height: 280px;
-    display: inline-block;
-    padding: 40px;
+    display: flex;
+    }
+
+.column{  
     color:hsla(0, 0%, 100%, 0.75);
-    float: left;
-    border-radius: 1px;
     font-size: 14px;
+    width: 13%;
+    height: 350px;
 }
 
 
 h2{
-    color: hsl(0, 0%, 95%);
+    /* color: hsl(0, 0%, 95%);*/
+    color: hsla(0, 0%, 100%, 0.75);
     font-weight: 700;
-    font-family: 'Big Shoulders Text';
+    font-family: 'Big Shoulders Text', cursive;
+    font-style: bold;
 }
 
 a {
-    color: hsla(0, 0%, 100%, 0.75);
+    background-color: white;
     border: white 1px solid;
     border-radius: 50px;
     text-decoration: none;
-    padding: 10px 20px 10px 20px;
+    padding: 8px 25px 8px 25px;
     font-family: lexend_decaregular ;
     font-weight: 400;
     font-size: 11px;
@@ -36,20 +40,39 @@ a {
 
 .sedans{
  background-color: hsl(31, 77%, 52%);
+ padding: 40px 20px 40px 20px;
+}
+
+.sedans a{
+    color: hsl(31, 77%, 52%);
 }
 
 .suvs{
     background-color: hsl(184, 100%, 22%);
+    padding: 40px 20px 40px 20px;
+}
+
+.suvs a{
+    color: hsl(184, 100%, 22%);
 }
 
 .luxury{
     background-color: hsl(179, 100%, 13%);
+    padding: 40px 20px 40px 20px;
 }
 
-.attribution { font-size: 11px; text-align: center; }
+.luxury a{
+    color: hsl(179, 100%, 13%);
+}
+
+footer{
+    padding-left: 100px;
+}
+.attribution { font-size: 11px; text-align: left; }
 .attribution a { color: hsl(228, 45%, 44%); }
 
-@font-face {
+
+/*@font-face {
     font-family: 'lexend_decaregular';
     src: url('file:///Users/lolahjune/Desktop/ReDi/threecolomn/index.html#') format('woff2'),
          url('lfile:///Users/lolahjune/Desktop/ReDi/threecolomn/index.html#') format('woff');
@@ -57,6 +80,4 @@ a {
     font-style: normal;
 
 }
-
-
-}
+*/
