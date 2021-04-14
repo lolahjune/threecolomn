@@ -9,6 +9,7 @@ body{
 .row{
     text-align:left; 
     display: flex;
+    box-sizing: border-box;
     }
 
 .column{  
@@ -20,11 +21,16 @@ body{
 
 
 h2{
-    /* color: hsl(0, 0%, 95%);*/
-    color: hsla(0, 0%, 100%, 0.75);
+    color: hsl(0, 0%, 95%);
     font-weight: 700;
     font-family: 'Big Shoulders Text', cursive;
     font-style: bold;
+}
+
+p{
+    /*color: hsl(0, 0%, 95%)*/
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 12px;
 }
 
 a {
